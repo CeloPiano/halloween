@@ -18,9 +18,9 @@ export function Header () {
             </Logo>
 
             <Navbar>
-                <Link to="/" >BUY</Link>
-                <Link to="/" >SIGN UP</Link>
-                <Link to="/" >ABOUT US</Link>
+                <Link to="/" className="Button">BUY</Link>
+                <Link to="/" className="Button">SIGN UP</Link>
+                <Link to="/" className="Button">ABOUT US</Link>
             </Navbar>
 
         </Container>

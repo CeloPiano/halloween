@@ -8,6 +8,8 @@ export const Container = styled.div`
     
     align-items: center;
 
+    flex-wrap: wrap;
+
     gap: 5rem;
 
     @keyframes twist{

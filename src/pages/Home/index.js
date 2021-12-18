@@ -24,7 +24,6 @@ function Home() {
             <Content>
                 <Title>SPOOKY <img src={abobora} className="abobora"/> PARTY</Title>
                 <p> A festa de halloween mais escrota que voçê já viu, agora em Brasília</p>
-                
                 <Button/>
             </Content>
 
