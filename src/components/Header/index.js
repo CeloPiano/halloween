@@ -19,8 +19,8 @@ export function Header () {
 
             <Navbar>
                 <Link to="/" className="Button">BUY</Link>
-                <Link to="/" className="Button">SIGN UP</Link>
                 <Link to="/" className="Button">SIGN IN</Link>
+                <Link to="/" className="Button">My Tickets</Link>
                 <Link to="/" className="Button">ABOUT US</Link>
             </Navbar>
 
