@@ -7,10 +7,7 @@ import { Container,
 import { Button } from "../../components/Button";
 
 import abobora from "../../assets/abobora.png"
-import esqueleto from "../../assets/esqueleto.png"
-import gato from "../../assets/gato.png"
-import mumia from "../../assets/mumia.png"
-import zombie from "../../assets/zombie.png"
+import InputField from "../../components/InputField";
 
 function Home() {
 
@@ -35,6 +32,7 @@ function Home() {
                 <Button Name="Get SPOOKED"/>
             </Content>
 
+            <InputField name="Nome"></InputField>
 
         </Container>
     );

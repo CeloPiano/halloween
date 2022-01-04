@@ -9,6 +9,7 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
 
+        text-transform: none;
     }
 
     html, body, #root {
@@ -18,7 +19,7 @@ export default createGlobalStyle`
         
         background-color: ${COLORS.bluebackground};
 
-        font-family: 'Staatliches', cursive;
+        font-family: 'Anton', sans-serif;
     }
 
     @media (max-width: 1080px) {
@@ -34,7 +35,7 @@ export default createGlobalStyle`
     }
 
     *, button, input {
-        font-family: 'Staatliches', cursive;
+        font-family: 'Anton', sans-serif;
         border: 0;
         outline: 0;
     }
