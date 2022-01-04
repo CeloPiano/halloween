@@ -32,8 +32,6 @@ function Home() {
                 <Button Name="Get SPOOKED"/>
             </Content>
 
-            <InputField name="Nome"></InputField>
-
         </Container>
     );
 
