@@ -7,19 +7,23 @@ export const Container = styled.button`
     width: 10rem;
     height: 3.5rem;
 
+
+    border: 0.1rem solid ${COLORS.black};
     border-radius: 0.4rem;
 
-    background-color: ${COLORS.black};
+    background: ${COLORS.bluebackground};
 
-    color: white;
-    font-size: 0.85rem;
+    color: ${COLORS.black};
+    font-size: 1rem;
 
     cursor: pointer;
 
-    transition: opacity 1s;
+    transition: all 1s ease;
 
     &:hover {
-        opacity: 0.8;
+        background: ${COLORS.black};
+        color: white;
+        font-size: 1.9rem;
     }
 
 `

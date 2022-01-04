@@ -1,10 +1,10 @@
 
 import { Container } from "./style";
 
-export function Button () {
+export function Button ({Name}) {
 
     return(
-        <Container>GET SPOOKED</Container> 
+        <Container>{Name}</Container> 
     );
 
 };

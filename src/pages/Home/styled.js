@@ -28,6 +28,8 @@ export const Container = styled.div`
 
     .abobora{
         animation: twist 2s ease infinite;
+
+        width: 25rem;
     }
 `
 
@@ -57,7 +59,5 @@ export const Content = styled.div`
 `
 
 export const Title = styled.h1`
-
-    display: flex;
-
+    word-spacing: 7rem;
 `
