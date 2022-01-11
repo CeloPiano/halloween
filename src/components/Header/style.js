@@ -31,8 +31,12 @@ export const Logo = styled.div`
         width: 4rem;
         /* animation: slide 2s ease infinite; */
     }
+    
+    .Title:hover + .Imagem{
+        /* animation: slide 2s ease infinite; */
+    }
 
-    /* @keyframes slide{
+    @keyframes slide{
         0%{
             transform: translateY(0%);
         }
@@ -44,7 +48,7 @@ export const Logo = styled.div`
         100%{
             transform: translateY(0%);
         }
-    } */
+    }
 
 
 

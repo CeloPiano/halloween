@@ -13,15 +13,15 @@ export function Header () {
         <Container>
             
             <Logo>
-                <img src={morcegao} alt="MORCEGO MALUCO"/>
-                <Link to="/" >SPOOKY PARTY</Link>
+                <img src={morcegao} className="Imagem" alt="MORCEGO MALUCO"/>
+                <Link to="/" className="Title" >SPOOKY PARTY</Link>
             </Logo>
 
             <Navbar>
                 <Link to="/" className="Button">BUY</Link>
-                <Link to="/" className="Button">SIGN IN</Link>
+                <Link to="/login" className="Button">SIGN IN</Link>
                 <Link to="/" className="Button">PROFILE</Link>
-                <Link to="/" className="Button">ABOUT US</Link>
+                <Link to="/aboutus" className="Button">ABOUT US</Link>
             </Navbar>
 
         </Container>

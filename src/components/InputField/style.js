@@ -5,6 +5,8 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
+    width: 15rem;
+
     input:placeholder-shown + label {
         opacity: 0;
     }
@@ -19,6 +21,7 @@ export const Input = styled.input`
 
 
     border: 0.1rem solid gray; 
+
 `
 
 export const Placeholder = styled.label`

@@ -1,12 +1,12 @@
 import {Container, Input, Placeholder } from "./style";
 
 
-function InputField({tipo,name}) {
+function InputField({type,name}) {
 
     return(
         <Container>
 
-            <Input type={tipo} placeholder={name}></Input>
+            <Input type={type} placeholder={name}></Input>
             <Placeholder>{name}</Placeholder>
 
         </Container>
